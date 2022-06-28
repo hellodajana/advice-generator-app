@@ -65,7 +65,8 @@
     @include respond-to("large") {
       margin-top: 40px;
     }
-    &:hover {
+    &:hover,
+    &:focus {
       -webkit-box-shadow: 0 0 25px 2px $neon-green;
       -moz-box-shadow: 0 0 25px 2px $neon-green;
       box-shadow: 0 0 25px 2px $neon-green;
