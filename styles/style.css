@@ -1,0 +1,109 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Manrope", sans-serif;
+  background-color: #1f2632;
+  color: #cee3e9;
+  font-size: 28px;
+  font-weight: 800;
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 343px;
+  height: 315px;
+  background-color: #323a49;
+  border-radius: 10px;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 540px;
+    height: 364px;
+  }
+}
+
+.container__advice {
+  color: #52ffa8;
+  text-transform: uppercase;
+  font-size: 11px;
+  letter-spacing: 3.46px;
+  margin-top: 40px;
+  margin-bottom: 24px;
+}
+
+@media (min-width: 768px) {
+  .container__advice {
+    margin-top: 48px;
+    font-size: 13px;
+    letter-spacing: 4px;
+  }
+}
+
+.container__text {
+  font-size: 24px;
+  margin: 0 24px;
+}
+
+@media (min-width: 768px) {
+  .container__text {
+    margin: 0 48px;
+    font-size: 28px;
+  }
+}
+
+.container__divider {
+  margin-top: 24px;
+  position: fixed;
+  top: 60%;
+  left: 50%;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
+}
+
+@media (min-width: 768px) {
+  .container__divider {
+    margin-top: 40px;
+    width: 90%;
+  }
+}
+
+.container__btn {
+  margin-top: 32px;
+  width: 64px;
+  height: 64px;
+  background-color: #52ffa8;
+  border: none;
+  border-radius: 50%;
+  background-image: url(/images/icon-dice.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  position: fixed;
+  top: 80%;
+  left: 50%;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
+  cursor: pointer;
+}
+
+@media (min-width: 768px) {
+  .container__btn {
+    margin-top: 40px;
+  }
+}
+
+.container__btn:hover {
+  -webkit-box-shadow: 0 0 25px 2px #52ffa8;
+  box-shadow: 0 0 25px 2px #52ffa8;
+}
+/*# sourceMappingURL=style.css.map */
