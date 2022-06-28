@@ -24,4 +24,4 @@ Users should be able to:
 
 - Live Site URL: [link](https://hellodajana-advice-generator-app.netlify.app/)
 
-**Have fun building!** 🚀
+**Have fun exploring!** 🚀
