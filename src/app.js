@@ -1,6 +1,7 @@
 const loadAvice = async () => {
   try {
-    const res = await fetch("https://api.adviceslip.com/advice");
+    const API_LINK = "https://api.adviceslip.com/advice";
+    const res = await fetch(API_LINK);
     const data = await res.json();
 
     const title = document.getElementById("advice");
