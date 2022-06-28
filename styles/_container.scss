@@ -7,13 +7,13 @@
   left: 50%;
   transform: translate(-50%, -50%);
   width: 343px;
-  height: 315px;
+  height: 350px;
   background-color: $container-color;
   border-radius: 10px;
   text-align: center;
   @include respond-to("large") {
     width: 540px;
-    height: 364px;
+    height: 380px;
   }
   &__advice {
     color: $neon-green;
@@ -39,7 +39,7 @@
   &__divider {
     margin-top: 24px;
     position: fixed;
-    top: 60%;
+    top: 65%;
     left: 50%;
     transform: translate(-50%);
     @include respond-to("large") {

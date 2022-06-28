@@ -20,7 +20,7 @@ body {
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   width: 343px;
-  height: 315px;
+  height: 350px;
   background-color: #323a49;
   border-radius: 10px;
   text-align: center;
@@ -29,7 +29,7 @@ body {
 @media (min-width: 768px) {
   .container {
     width: 540px;
-    height: 364px;
+    height: 380px;
   }
 }
 
@@ -65,7 +65,7 @@ body {
 .container__divider {
   margin-top: 24px;
   position: fixed;
-  top: 60%;
+  top: 65%;
   left: 50%;
   -webkit-transform: translate(-50%);
           transform: translate(-50%);
