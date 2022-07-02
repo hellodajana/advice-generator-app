@@ -19,6 +19,7 @@ Users should be able to:
 - Semantic HTML5 markup
 - SASS
 - Mobile-first workflow
+- Javascript
 
 ### Links
 
