@@ -7,13 +7,13 @@
   left: 50%;
   transform: translate(-50%, -50%);
   width: 343px;
-  height: 400px;
+  min-height: 380px;
   background-color: $container-color;
   border-radius: 10px;
   text-align: center;
   @include respond-to("large") {
     width: 540px;
-    height: 420px;
+    min-height: 400;
   }
   &__advice {
     color: $neon-green;
@@ -31,44 +31,49 @@
   &__text {
     font-size: 24px;
     margin: 0 24px;
+    min-height: 220px;
     @include respond-to("large") {
       margin: 0 48px;
       font-size: 28px;
     }
   }
   &__divider {
-    margin-top: 24px;
-    position: fixed;
-    top: 65%;
-    left: 50%;
-    transform: translate(-50%);
+    margin-bottom: 60px;
     @include respond-to("large") {
       margin-top: 40px;
       width: 90%;
     }
   }
   &__btn {
-    margin-top: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  &__btn-dice {
+    position: absolute;
     width: 64px;
     height: 64px;
     background-color: $neon-green;
     border: none;
     border-radius: 50%;
-    background-image: url(/images/icon-dice.svg);
-    background-position: center;
-    background-repeat: no-repeat;
-    position: fixed;
-    top: 80%;
-    left: 50%;
-    transform: translate(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
     cursor: pointer;
     @include respond-to("large") {
-      margin-top: 40px;
+      margin-top: 5px;
     }
     &:hover {
       -webkit-box-shadow: 0 0 25px 2px $neon-green;
       -moz-box-shadow: 0 0 25px 2px $neon-green;
       box-shadow: 0 0 25px 2px $neon-green;
+      transform: rotate(360deg);
+    }
+    img {
+      transition: transform 0.8s ease-in;
+    }
+    img:hover {
+      transform: rotate(360deg);
     }
   }
 }

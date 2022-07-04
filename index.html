@@ -17,6 +17,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="/styles/style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <title>Advice generator app</title>
   </head>
   <body>
@@ -37,8 +38,11 @@
             class="container__divider"
           />
         </picture>
-
-        <button class="container__btn" id="btn"></button>
+        <div class="container__btn">
+          <button class="container__btn-dice" id="btn">
+            <img src="./images/icon-dice.svg" alt="dice-image" />
+          </button>
+        </div>
       </div>
     </main>
     <script src="/src/app.js"></script>
