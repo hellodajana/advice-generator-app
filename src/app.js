@@ -5,12 +5,14 @@ const loadAvice = async () => {
     // console.log(res.ok);
     const data = await res.json();
     const show = data.slip;
+
     const title = document.getElementById("advice");
     const advice = document.getElementById("text");
+
     title.innerHTML = `Advice #${show.id}`;
     advice.innerHTML = `"${show.advice}"`;
-  } catch (error) {
-    console.log(error);
+  } catch (e) {
+    console.error(e);
   }
 };
 
